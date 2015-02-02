@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forget Password</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="all"/>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="all"/>
+    <link href="css/style.css" rel="stylesheet" media="all"/>
+</head>
+<body>
+<nav class="nav navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">The Calorie Counter</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="menu">
+            <ul class="nav navbar-nav ">
+                <li ><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li class="active"><a href="forget.html">Forget</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<div class="container-fluid" id="main">
+    <div class="row">
+        <h1 class="col-xs-12 col-sm-8 col-sm-offset-2">Forget Password</h1>
+    </div>
+    <div class="row">
+        <form class="col-xs-12 col-sm-8 col-sm-offset-2" method="post" target="_self" action="IndexFood.php">
+            <div class="form-group has-feedback">
+                <label class="control-label">Email</label>
+                <input type="text" name="username" class="form-control" placeholder="adb@gmail.com" maxlength="96">
+            </div>
+
+
+            <button type="submit" id="login" class="btn btn-success">Send</button>
+        </form>
+    </div>
+</div>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
